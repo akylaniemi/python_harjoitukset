@@ -39,7 +39,7 @@ if valinta == 1 or valinta == 3:
 #Kateetti ja pinta-ala
 elif valinta == 2 or valinta == 4:
     hypotenuusa = int(input('Anna Hypotenuusa          :  '))
-    kateetti1 = int(input('Anna sivun pituus         :  '))
+    kateetti1   = int(input('Anna sivun pituus         :  '))
     kateetti2 = sqrt(hypotenuusa**2 - kateetti1**2)
     print ('Puuttuvan sivun pituus on : ', kateetti2)
     #Lasketaan käyttäjän halutessa myös pinta-ala hieman suoremmin:
