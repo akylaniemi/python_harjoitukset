@@ -22,7 +22,7 @@ käyttäjä tietää kolmion pinta-alan. Jos haluaa
 niin lasketaan myös se ja tulostus.
 
 vaikea:
-
+sama kuin ed + virhekäsittelyt?
 
 
 
