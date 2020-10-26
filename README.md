@@ -3,6 +3,6 @@
 
 ### python_luento1.py aloitettiin peruspythonin läpikäynti.
 
-## pythagora.py tehtiin yksinkertaista kolmion osien laskentaa ja määritettiin palautettavaa tehtävää
-### -> kotitehtava1.py 
+### pythagora.py tehtiin yksinkertaista kolmion osien laskentaa ja määritettiin palautettavaa tehtävää
+#### -> kotitehtava1.py oma versio tästä ohjelmasta.
  
