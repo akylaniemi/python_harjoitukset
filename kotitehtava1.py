@@ -55,6 +55,7 @@ elif valinta == 2 or valinta == 4:
             print ('Pinta-ala on              : ', pinta2)
 
     else:
+        print (' ')
         print ('Hypotenuusan olisi hyva olla pidempi kuin kateetti...')
     
         
