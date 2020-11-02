@@ -92,7 +92,11 @@ print (nimilista)
 
 print (nimilista[random.randrange(len(nimilista))])
 
+######################################################
+#seuraavalla viikolla jatketaan:
 
+nimet_isoilla_alkukirj = [n.capitalize() for n in nimilista]
+print (nimet_isoilla_alkukirj)
 
 
 
