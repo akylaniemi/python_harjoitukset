@@ -1,4 +1,6 @@
 # python_harjoitukset
+### ja kurssihan siis on ROS-perusteet @SAMK.fi
+
 ## 15.10.2020 helloworld.py tulostaa näytölle klassisen tervehdyksen.
 
 ### python_luento1.py aloitettiin peruspythonin läpikäynti.
