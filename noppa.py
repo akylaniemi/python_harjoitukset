@@ -37,7 +37,7 @@ def fNoppa(noppalkm, taholkm):
 
 
 
-###################################################
+###################################################################################################
 
 #loput ajetaan vain jos tämä on päajotiedosto:
 if __name__ == "_main_":
@@ -46,7 +46,6 @@ if __name__ == "_main_":
     print ("-------------------------------------")
 
     (maara, tahot) = fNoppa (0,0)
-   # fNoppa (maara, tahot)
 
     while True:
         try:
@@ -59,7 +58,7 @@ if __name__ == "_main_":
             sys.exit("yritäppä uudelleen")
 
 
-        if jatko == "ENTER" or jatko == "enter" or jatko == "":
+        if jatko.upper() == "ENTER" or jatko == "":
             fNoppa (maara, tahot)
         elif jatko == "muuta tahot":
                 (maara, tahot) = fNoppa(maara, 0)
@@ -69,9 +68,8 @@ if __name__ == "_main_":
             sys.exit("\nHave a nice day!\n")
 
 
-#print(random.choice(noppa_d100))
-#print(noppa_d100[random.randrange(100)])
-
+#Tämä oli hyvä harjoitus, paransi Python-näppituntumaa funktioiden suhteen mukavasti.
+#...ja tää tuntui aika kivalta=tiiviiltä ratkaisulta.
 
 #helppo
 
@@ -80,6 +78,7 @@ if __name__ == "_main_":
 #Anna satunnainen nopantulos printtaamalla se kayttajalle.                                          OK
 
 #normaali
+
 #sama kuin normaali, mutta kysy kuinka monta noppaa kayttaja haluaa heittaa, ja printtaa            OK
 # noppien tulos erikseen ja summana                                                                 OK, OK
 
