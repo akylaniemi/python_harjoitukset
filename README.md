@@ -1,5 +1,5 @@
 # python_harjoitukset
-### ja kurssihan siis on ROS-perusteet @SAMK.fi
+### ja kurssihan siis on ROS-perusteet @SAMK.fi (roboai.fi/taydennyskoulutus/ros/)
 
 ## 15.10.2020 helloworld.py tulostaa näytölle klassisen tervehdyksen.
 
