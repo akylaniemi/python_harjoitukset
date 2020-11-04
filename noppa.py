@@ -51,7 +51,7 @@ if __name__ == "_main_":
             print ("\n- - Halutaanko heittää uudelleen? - -")
             print ("  ENTER       = uusi heittokierros, ")
             print ("  muuta tahot = uusi taholukumäärä, ")
-            print ("  muuta lkm   = uusi noppalkm?,       ")
+            print ("  muuta lkm   = uusi noppalkm?,     ")
             jatko = input("  lopeta      = ohjelman lopetus?     >")
         except:
             sys.exit("yritäppä uudelleen")
