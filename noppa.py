@@ -68,8 +68,7 @@ if __name__ == "_main_":
             sys.exit("\nHave a nice day!\n")
 
 
-#Tämä oli hyvä harjoitus, paransi Python-näppituntumaa funktioiden suhteen mukavasti.
-#...ja tää tuntui aika kivalta=tiiviiltä ratkaisulta.
+
 
 #helppo
 
