@@ -51,7 +51,7 @@ if __name__ == "_main_":
             print ("\n- - Halutaanko heittää uudelleen? - -")
             print ("  ENTER       = uusi heittokierros, ")
             print ("  muuta tahot = uusi taholukumäärä, ")
-            print ("  muuta lkm   = uusi noppalkm?      ")
+            print ("  muuta lkm   = uusi noppalkm?,       ")
             jatko = input("  lopeta      = ohjelman lopetus?     >")
         except:
             sys.exit("yritäppä uudelleen")
@@ -59,11 +59,11 @@ if __name__ == "_main_":
 
         if jatko.upper() == "ENTER" or jatko == "":
             fNoppa (maara, tahot)
-        elif jatko == "muuta tahot":
+        elif jatko == "muuta tahot" or jatko == "tahot":
                 (maara, tahot) = fNoppa(maara, 0)
-        elif jatko == "muuta lkm":
+        elif jatko == "muuta lkm" or jatko == "lkm":
                 (maara, tahot) = fNoppa(0, tahot)
-        elif jatko == "lopeta":
+        elif jatko == "lopeta" or jatko == "lo":
             sys.exit("\nHave a nice day!\n")
 
 
