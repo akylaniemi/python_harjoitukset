@@ -26,7 +26,6 @@ def fNoppa(noppalkm, taholkm):
 
     for x in range(noppalkm):
         print ("\nNoppa nro_", x+1)
-        #satunnainen = random.randrange(taholkm+1)                      #got zero as an answer, not good, so ->
         satunnainen = random.randint(1, taholkm)
         print ("Satunnainen noppatulos: ", satunnainen)
         noppasumma = noppasumma + satunnainen
